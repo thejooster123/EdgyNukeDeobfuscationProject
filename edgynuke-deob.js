@@ -98,140 +98,91 @@ _0x1a294c();
 let $ = window.jQuery;
 var j = $.noConflict();
 const script_version = 1.985,
-      dynamo = ['studytool', 'eresource'],
-      allowed = ['summary', 'reflectionlecture', 'explorationlecture', 'lablesson', 'lablecture', 'introductorylecture', 'spotlightlecture', 'introductoryskillslecture', 'applicationlecture', 'applicationskillslecture', 'lecture', 'instruction', 'warmup', 'directinstruction', 'instructional', 'vocabulary', 'onlinecontent'],
-      deep = ['cumulativeexamreview', 'topicreviewactivity', 'quiz', 'unittestreview', 'exam', 'unittest', 'cumulativeexam', 'topictest', 'practice', 'pretest'],
-      bg_Img = 'https://wallpaperaccess.com/full/2471283.gif';
+dynamo = ['studytool', 'eresource'],
+allowed = ['summary', 'reflectionlecture', 'explorationlecture', 'lablesson', 'lablecture', 'introductorylecture', 'spotlightlecture', 'introductoryskillslecture', 'applicationlecture', 'applicationskillslecture', 'lecture', 'instruction', 'warmup', 'directinstruction', 'instructional', 'vocabulary', 'onlinecontent'],
+deep = ['cumulativeexamreview', 'topicreviewactivity', 'quiz', 'unittestreview', 'exam', 'unittest', 'cumulativeexam', 'topictest', 'practice', 'pretest'],
+bg_Img = 'https://wallpaperaccess.com/full/2471283.gif';
 let bot_isRunning = true,
     unit_picked = false,
     messaged = false,
     brainly_answers = false,
     bingified = false;
-const letters = 'abcdefghijklmnopqrstuvwxyz',
-      numbers = '1234567890';
+const letters = 'abcdefghijklmnopqrstuvwxyz', 
+numbers = '1234567890';
 
 function verify_purchase(_0x17709b, _0x5a5366) {
-  const _0x13240d = {
-    'weXAr': function (_0x41ef79, _0xd00acf) {
-      return _0x41ef79(_0xd00acf);
-    },
-    'QHXPZ': function (_0x190267, _0x548644, _0x1fd499, _0x3612ea) {
-      return _0x190267(_0x548644, _0x1fd499, _0x3612ea);
-    },
-    'LALVp': function (_0x3d027b, _0x438745) {
-      return _0x3d027b(_0x438745);
-    },
-    'ATQFD': function (_0x38305c, _0xb7cb9a) {
-      return _0x38305c > _0xb7cb9a;
-    },
-    'CqBWz': function (_0x559d05, _0x3fad00) {
-      return _0x559d05(_0x3fad00);
-    },
-    'UJwIi': 'updateCheck_date_server',
-    'bQEEn': function (_0x5a3192, _0x570194) {
-      return _0x5a3192(_0x570194);
-    },
-    'sgQRN': 'home-page-background',
-    'RffAb': 'transparent',
-    'jUYCI': function (_0x187b1c, _0x15b60d) {
-      return _0x187b1c(_0x15b60d);
-    },
-    'NgdoB': function (_0x4cf968, _0x5e6d4d) {
-      return _0x4cf968(_0x5e6d4d);
-    },
-    'zotaY': '*-edgyBot_master_Mind-*',
-    'IEuiT': '|edgy_list_class|',
-    'naTCr': function (_0x4cdb6a, _0x1a8ce6) {
-      return _0x4cdb6a < _0x1a8ce6;
-    },
-    'MSgLD': function (_0x54038c, _0x29259a) {
-      return _0x54038c == _0x29259a;
-    },
-    'oFMVC': function (_0x460732, _0x13d2d5) {
-      return _0x460732 === _0x13d2d5;
-    },
-    'tqOuN': 'QMkuM',
-    'UOYEG': 'profile-nav-dropdown',
-    'SaDLx': function (_0xe1331a, _0x14f2d4) {
-      return _0xe1331a === _0x14f2d4;
-    },
-    'Uryqn': 'ijFmG',
-    'IdSqT': 'pDsEx',
-    'iUDys': function (_0x296a23, _0x259ba0) {
-      return _0x296a23 !== _0x259ba0;
-    },
-    'amxvB': 'BFKRD',
-    'HwuyA': 'GeXhW'
-  };
-
+  const _0x13240d = {weXAr: function (_0x41ef79, _0xd00acf) {
+    return _0x41ef79(_0xd00acf);
+  }, QHXPZ: function (_0x190267, _0x548644, _0x1fd499, _0x3612ea) {
+    return _0x190267(_0x548644, _0x1fd499, _0x3612ea);
+  }, LALVp: function (_0x3d027b, _0x438745) {
+    return _0x3d027b(_0x438745);
+  }, ATQFD: function (_0x38305c, _0xb7cb9a) {
+    return _0x38305c > _0xb7cb9a;
+  }, CqBWz: function (_0x559d05, _0x3fad00) {
+    return _0x559d05(_0x3fad00);
+  }, UJwIi: "updateCheck_date_server", bQEEn: function (_0x5a3192, _0x570194) {
+    return _0x5a3192(_0x570194);
+  }, sgQRN: "home-page-background", RffAb: "transparent", jUYCI: function (_0x187b1c, _0x15b60d) {
+    return _0x187b1c(_0x15b60d);
+  }, NgdoB: function (_0x4cf968, _0x5e6d4d) {
+    return _0x4cf968(_0x5e6d4d);
+  }, zotaY: "*-edgyBot_master_Mind-*", IEuiT: "|edgy_list_class|", naTCr: function (_0x4cdb6a, _0x1a8ce6) {
+    return _0x4cdb6a < _0x1a8ce6;
+  }, MSgLD: function (_0x54038c, _0x29259a) {
+    return _0x54038c == _0x29259a;
+  }, oFMVC: function (_0x460732, _0x13d2d5) {
+    return _0x460732 === _0x13d2d5;
+  }, tqOuN: "QMkuM", UOYEG: "profile-nav-dropdown", SaDLx: function (_0xe1331a, _0x14f2d4) {
+    return _0xe1331a === _0x14f2d4;
+  }, Uryqn: "ijFmG", IdSqT: "pDsEx", iUDys: function (_0x296a23, _0x259ba0) {
+    return _0x296a23 !== _0x259ba0;
+  }, amxvB: "BFKRD", HwuyA: "GeXhW"};
   try {
     _0x17709b = decodeURIComponent(atob(_0x17709b));
-
-    let _0x361a07 = '*-edgyBot_master_Mind-*',
-        _0xb1f0da = _0x17709b.split(_0x361a07)[0],
-        _0x44425f = [_0x17709b.split(_0x361a07)[1]];
-
-    _0x17709b.split(_0x361a07)[1].includes('|edgy_list_class|') && (_0x44425f = _0x17709b.split(_0x361a07)[1].split('|edgy_list_class|'));
-
-    let _0x20e329 = _0xb1f0da.split('-'),
-        _0x128be2 = '',
-        _0x1f8360 = [],
-        _0x4ebdda = 0;
-
+    let _0x361a07 = "*-edgyBot_master_Mind-*", _0xb1f0da = _0x17709b.split(_0x361a07)[0], _0x44425f = [_0x17709b.split(_0x361a07)[1]];
+    _0x17709b.split(_0x361a07)[1].includes("|edgy_list_class|") && (_0x44425f = _0x17709b.split(_0x361a07)[1].split("|edgy_list_class|"));
+    let _0x20e329 = _0xb1f0da.split("-"), _0x128be2 = "", _0x1f8360 = [], _0x4ebdda = 0;
     for (let _0x332721 = 0; _0x332721 < _0x20e329.length; _0x332721++) {
       _0x128be2 += letters[_0x20e329[_0x332721]];
     }
-
     for (let _0x11be3c = 0; _0x11be3c < _0x44425f.length; _0x11be3c++) {
-      let _0x3e4ea5 = _0x44425f[_0x11be3c].split('-'),
-          _0x59fe75 = '';
-
+      let _0x3e4ea5 = _0x44425f[_0x11be3c].split("-"), _0x59fe75 = "";
       for (let _0x55a5d2 = 0; _0x55a5d2 < _0x3e4ea5.length; _0x55a5d2++) {
-        if (_0x3e4ea5[_0x55a5d2].split('*$').length == 2) {
-          _0x59fe75 += _0x3e4ea5[_0x55a5d2].split('*$')[0];
+        if (_0x3e4ea5[_0x55a5d2].split("*$").length == 2) {
+          _0x59fe75 += _0x3e4ea5[_0x55a5d2].split("*$")[0];
         } else _0x59fe75 += letters[_0x3e4ea5[_0x55a5d2]];
       }
-
       _0x1f8360.push(_0x59fe75);
     }
-
-    if (_0x5a5366 == 'info') return [_0x128be2, _0x1f8360];
-
-    if (_0x5a5366 == 'check') {
-      if (document.getElementById('profile-nav-dropdown') !== null) {
-        let _0x1b10a2 = document.getElementById('profile-nav-dropdown').innerText.toLowerCase().replaceAll(' ', '').replace(/[^\w\s]|_/g, '').replace(/\s+/g, ''),
-            _0x3744fe = document.getElementsByClassName('card-title');
-
+    if (_0x5a5366 == "info") return [_0x128be2, _0x1f8360];
+    if (_0x5a5366 == "check") {
+      if (document.getElementById("profile-nav-dropdown") !== null) {
+        let _0x1b10a2 = document.getElementById("profile-nav-dropdown").innerText.toLowerCase().replaceAll(" ", "").replace(/[^\w\s]|_/g, "").replace(/\s+/g, ""), _0x3744fe = document.getElementsByClassName("card-title");
         if (_0x1b10a2[0] == _0x128be2[0]) {
           _0x4ebdda += 1;
         }
-
         let _0x3b93ab = 0;
-
         for (let _0xbc3b13 = 0; _0xbc3b13 < _0x1f8360.length; _0xbc3b13++) {
           for (let _0x1dc3c3 = 0; _0x1dc3c3 < _0x3744fe.length; _0x1dc3c3++) {
-            let _0x22b482 = _0x3744fe[_0x1dc3c3].title.trim().toLowerCase().replaceAll(' ', '').replace(/[^\w\s]|_/g, '').replace(/\s+/g, ''),
-                _0xd35f21 = _0x1f8360[_0xbc3b13].trim().toLowerCase().replaceAll(' ', '').replace(/[^\w\s]|_/g, '').replace(/\s+/g, '');
-
+            let _0x22b482 = _0x3744fe[_0x1dc3c3].title.trim().toLowerCase().replaceAll(" ", "").replace(/[^\w\s]|_/g, "").replace(/\s+/g, ""), _0xd35f21 = _0x1f8360[_0xbc3b13].trim().toLowerCase().replaceAll(" ", "").replace(/[^\w\s]|_/g, "").replace(/\s+/g, "");
             if (_0x22b482 == _0xd35f21) {
               _0x3b93ab += 1;
             }
           }
         }
-
         _0x3b93ab == _0x1f8360.length && (_0x4ebdda += 1);
       }
-
       if (_0x4ebdda == 2) {
         return true;
       }
-
       return false;
     }
   } catch (_0x32e913) {
     return console.log(_0x32e913), false;
   }
 }
+
 
 function checkLoaded() {
   const _0x182ef1 = {
@@ -438,11 +389,11 @@ function edgyMenu() {
     'yxSbY': 'keyup'
   };
 
-  let _0x2987ac = document.createElement('div'),
-      _0xb86ca1 = document.createElement('div');
+  let keyDivStyle = document.createElement('div'),
+      keyDivElement = document.createElement('div');
 
-  _0x2987ac.style = 'position:absolute;z-index:100;width:100vw;height:100vh;background:white;margin:0;top:0;right:0;left:0;opacity:100%;display:flex;justify-content:center;align-items:center;font-family:inherit;';
-  _0xb86ca1.innerHTML = '\n    <div style="display:flex;justify-content:center;align-items:center;flex-direction:row;width:90%;font-family:inherit;"class="title-box">\n        <img style="user-select:none;-moz-window-dragging:none;-webkit-user-drag:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-ms-touch-select:none;width:35%;"src="https://edgenuity-plus.web.app/assets/imgs/edgePlus.PNG" alt="edgyBot"/>\n    </div>\n    <div style="display:flex;align-items:center;margin-top:20px;width:95%;justify-content:center;align-items:center;font-family:inherit;flex-direction:column;text-align:center;height:fit-content;">\n        <input spellcheck="false" style="color:black;transition:0.5s;width:80%;height:35px;padding:5px;border:none;border-bottom:1px solid lightgray;margin-top:5px;outline:none;font-family:inherit;" id="cCode" class="inp" type="text" placeholder="Enter purchase key...🗝"/>\n        <p style="transition:0.5s;width:80%;margin-top:25px;font-family:inherit;color:black;" id="convey">Purchase key required for activation. 😊</p>\n    </div>\n    ', _0xb86ca1.style = 'position:fixed;height:fit-content;width:40%;background:white;border:1px solid lightgray;border-radius:5px;opacity:100%;z-index:200;display:flex;align-items:center;flex-direction:column;padding:20px;', document.body.append(_0x2987ac), _0x2987ac.append(_0xb86ca1);
+  keyDivStyle.style = 'position:absolute;z-index:100;width:100vw;height:100vh;background:white;margin:0;top:0;right:0;left:0;opacity:100%;display:flex;justify-content:center;align-items:center;font-family:inherit;';
+  keyDivElement.innerHTML = '\n<div style="display:flex;justify-content:center;align-items:center;flex-direction:row;width:90%;font-family:inherit;"class="title-box">\n<img style="user-select:none;-moz-window-dragging:none;-webkit-user-drag:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-ms-touch-select:none;width:35%;"src="https://edgenuity-plus.web.app/assets/imgs/edgePlus.PNG" alt="edgyBot"/>\n    </div>\n    <div style="display:flex;align-items:center;margin-top:20px;width:95%;justify-content:center;align-items:center;font-family:inherit;flex-direction:column;text-align:center;height:fit-content;">\n        <input spellcheck="false" style="color:black;transition:0.5s;width:80%;height:35px;padding:5px;border:none;border-bottom:1px solid lightgray;margin-top:5px;outline:none;font-family:inherit;" id="cCode" class="inp" type="text" placeholder="Enter purchase key...🗝"/>\n        <p style="transition:0.5s;width:80%;margin-top:25px;font-family:inherit;color:black;" id="convey">Purchase key required for activation. 😊</p>\n    </div>\n    ', keyDivElement.style = 'position:fixed;height:fit-content;width:40%;background:white;border:1px solid lightgray;border-radius:5px;opacity:100%;z-index:200;display:flex;align-items:center;flex-direction:column;padding:20px;', document.body.append(keyDivStyle), keyDivStyle.append(keyDivElement);
 
   let _0x3e7bc0 = document.getElementById('cCode'),
       _0x47808b = document.getElementById('convey');
@@ -493,10 +444,10 @@ function edgyMenu() {
       if (_0x3e7bc0.value.trim().replaceAll(' ', '').length > 0) {
         let _0x3159c1 = _0x3e7bc0.value.trim().replaceAll(' ', '');
 
-        verify_purchase(_0x3159c1, 'check') ? save_PVKey(_0x3159c1) && (convey(_0x47808b, _0x3e7bc0, _0xb86ca1, 'This is a valid purchase key. EdgyBot is at your service 🤩', 'cornflowerblue'), setTimeout(() => {
+        verify_purchase(_0x3159c1, 'check') ? save_PVKey(_0x3159c1) && (convey(_0x47808b, _0x3e7bc0, keyDivElement, 'This is a valid purchase key. EdgyBot is at your service 🤩', 'cornflowerblue'), setTimeout(() => {
           location.reload();
-        }, 1500)) : convey(_0x47808b, _0x3e7bc0, _0xb86ca1, 'Purchase key is either invalid or has expired.\nFill out another order & contact sedgenuity@gmail.com to get it verified again for free 👌', 'coral');
-      } else convey(_0x47808b, _0x3e7bc0, _0xb86ca1, 'Please actually enter something...', 'gray');
+        }, 1500)) : convey(_0x47808b, _0x3e7bc0, keyDivElement, 'Purchase key is either invalid or has expired.\nFill out another order & contact sedgenuity@gmail.com to get it verified again for free 👌', 'coral');
+      } else convey(_0x47808b, _0x3e7bc0, keyDivElement, 'Please actually enter something...', 'gray');
     }
   });
 }
@@ -853,7 +804,7 @@ function pick_class() {
         'DjKZR': 'disabled'
       };
 
-      let _0x2d84b9 = clean(_0x3085a2[_0x4a9c41].getElementsByClassName('card-title course-title')[0].title);
+      let _0x2d84b9 = clean(document.getElementsByClassName('sle-card card')[_0x4a9c41].getElementsByClassName('card-title course-title')[0].title);
 
       if (check_paid(_0x2d84b9)) {
         localStorage.setItem('picked_class', _0x2d84b9), location.reload();
@@ -863,7 +814,7 @@ function pick_class() {
     });
   }
 
-  alert('\nOpen a class for EdgyBot to do... 👇\n\nEdgyBot will keep doing this class until you decide to switch classes. 🙃\n\nWhen you want to switch classes later on, Click CTRL ALT C on your keyboard. 😊\n\n Do Not Click Next Activity ⚠');
+  alert('\nOpen a class for EdgyBot to do... 👇\n\nEdgyBot will keep doing this class until you decide to switch classes. 🙃\n\nWhen you want to switch classes later on, Click CTRL ALT C on your keyboard. 😊\n\n Do Not Click Next Activity ⚠ \n\n EdgyBot Decompilation Project by wearr!');
 }
 
 async function check_paid(_0x42c2db) {
@@ -891,9 +842,9 @@ async function check_paid(_0x42c2db) {
     'mviwY': 'CTnqf'
   };
 
-  let _0x3d206f = await GM_getValue('pv_key_edgyBot');
+  let checkKey = await GM_getValue('pv_key_edgyBot');
 
-  if (verify_purchase(_0x3d206f, 'info')[1].includes(_0x42c2db)) return true;else {
+  if (verify_purchase(checkKey, 'info')[1].includes(_0x42c2db)) return true;else {
     return false;
   }
 }
@@ -915,14 +866,14 @@ function open_class() {
     'Zwqhe': 'wDawS'
   };
 
-  let _0x21f3b9 = document.getElementsByClassName('card-title course-title'),
+  let cardTitleList = document.getElementsByClassName('card-title course-title'),
       _0x48c2dd = localStorage.getItem('picked_class'),
       _0x553264 = false;
 
-  for (let _0x22ab03 = 0; _0x22ab03 < _0x21f3b9.length; _0x22ab03++) {
-    let _0x53d8b9 = clean(_0x21f3b9[_0x22ab03].title);
+  for (let _0x22ab03 = 0; _0x22ab03 < cardTitleList.length; _0x22ab03++) {
+    let _0x53d8b9 = clean(cardTitleList[_0x22ab03].title);
 
-    _0x53d8b9 == _0x48c2dd && (_0x553264 = true, _0x21f3b9[_0x22ab03].click(), location.reload());
+    _0x53d8b9 == _0x48c2dd && (_0x553264 = true, cardTitleList[_0x22ab03].click(), location.reload());
   }
 
   !_0x553264 && (localStorage.removeItem('picked_class'), location.reload());
@@ -970,9 +921,9 @@ async function start() {
     }
   };
 
-  let _0x507575 = await GM_getValue('pv_key_edgyBot');
+  let keyCheck = await GM_getValue('pv_key_edgyBot');
 
-  if (_0x507575 == undefined) {
+  if (keyCheck == undefined) {
     console.log('undefined key'), smartExec(userAnalysis, 250);
   } else checkLoaded() && setTimeout(() => {
     document.getElementsByClassName('card-title')[0] !== undefined ? (console.log('random key check'), checkKey()) : (edgyBot(), console.log('bot is running'));
@@ -1169,25 +1120,28 @@ function edgyBot() {
     }
   };
   localStorage.getItem('bg_state_edgy') == null && localStorage.setItem('bg_state_edgy', 'on');
-  document.addEventListener('keyup', _0x30e454 => {
+  document.addEventListener('keyup', keyEvent => {
     const _0x11ec25 = {
       'iOGPX': function (_0x15aca9, _0x3c376c) {
         return _0x15aca9(_0x3c376c);
       }
     };
-    if (_0x30e454.keyCode == '67' && _0x30e454.altKey && _0x30e454.ctrlKey) location.href = 'https://student.edgenuity.com?status_bot=bot_off';else {
-      if (_0x30e454.keyCode == '82' && _0x30e454.altKey && _0x30e454.ctrlKey) {
+    // CTRL + ALT + C
+    if (keyEvent.keyCode == '67' && keyEvent.altKey && keyEvent.ctrlKey) {
+        location.href = 'https://student.edgenuity.com?status_bot=bot_off';
+    } else {
+    // CTRL + ALT + R
+      if (keyEvent.keyCode == '82' && keyEvent.altKey && keyEvent.ctrlKey) {
         let _0x53387d = confirm('This action is usually done to fix issues on the user\'s end.\nWould you like to factory reset your edgenuity bot?\n\nClick OK to confirm reset. 🔴');
-
         _0x53387d && (reset_bot(), setTimeout(() => {
           alert('Your EdgyBot has been successfully factory reset. 😊');
           location.reload();
         }, 1000));
       } else {
-        if (_0x30e454.keyCode == '66' && _0x30e454.altKey && _0x30e454.ctrlKey) {
+        // CTRL + ALT + B
+        if (keyEvent.keyCode == '66' && keyEvent.altKey && keyEvent.ctrlKey) {
           if (localStorage.getItem('bg_state_edgy') == 'off') {
             let _0x1565de = confirm('Click OK to add our classic EdgePlus+ background to edgenuity while EdgyBot does your work.\n\nTo remove later, click CTRL ALT B ✅');
-
             _0x1565de && (localStorage.setItem('bg_state_edgy', 'on'), location.reload());
           } else {
             if (localStorage.getItem('bg_state_edgy') == 'on') {
@@ -1207,9 +1161,9 @@ function edgyBot() {
   _0x15febb == 'bot_off' && (localStorage.removeItem('picked_class'), location.href = 'https://student.edgenuity.com/');
 
   if (location.href.includes('emissary.edgenuity.com')) {
-    let _0x2247ba = document.body.innerText.trim().replaceAll('\n', '').replaceAll('\t', '');
+    let innerTextTrim = document.body.innerText.trim().replaceAll('\n', '').replaceAll('\t', '');
 
-    GM_setValue('article', _0x2247ba), window.close();
+    GM_setValue('article', innerTextTrim), window.close();
   }
 
   if (location.href.includes('https://student.edgenuity.com/')) {
@@ -1226,48 +1180,48 @@ function edgyBot() {
   }
 
   if (location.href.includes('coursemap')) {
-    let _0x419f6d = clean(document.getElementsByClassName('navbar-brand navbar-title')[0].title);
+    let getNavbarTitle = clean(document.getElementsByClassName('navbar-brand navbar-title')[0].title);
 
-    check_paid(_0x419f6d) ? (smartExec(lockPick, 250), open_nxt_allowed()) : alert('Your purchase key doesn\'t work for this class. 🔐\n\nThis means that it\'s not part of your purchase plan. 🤷‍♂️\n\nPlease pick another class for me to work on. 👌\n\nIf you are certain you paid for this class, please contact sedgenuity@gmail.com to resolve any issues. 🤔');
+    check_paid(getNavbarTitle) ? (smartExec(lockPick, 250), open_nxt_allowed()) : alert('Your purchase key doesn\'t work for this class. 🔐\n\nThis means that it\'s not part of your purchase plan. 🤷‍♂️\n\nPlease pick another class for me to work on. 👌\n\nIf you are certain you paid for this class, please contact sedgenuity@gmail.com to resolve any issues. 🤔');
   }
 
   location.href.includes('.core.learn.edgenuity.com') && workBot();
   location.href.includes('https://github.com/GSRHackZ/EdgyBot') && localStorage.getItem('msgd_ref') == null && (alert('Referral Program 🤩\n\nLeaving a star on this script and getting people to purchase it can get you $5 - $10 dollars based on their purchase. 💲\n\nContact geahad.codes_ on instagram to learn more about the referral program & start making money 💰'), localStorage.setItem('msgd_ref', 'true'));
 
   if (location.href.includes('https://www.bing.com/')) {
-    let _0x465ea6 = new URLSearchParams(window.location.search),
-        _0x21927d = _0x465ea6.get('autoSearch_edgy'),
-        _0x4464ab = _0x465ea6.get('q'),
-        _0x2a0c2a = _0x465ea6.get('choices'),
-        _0x2e2695 = _0x465ea6.get('questNumb');
+    let URLParams = new URLSearchParams(window.location.search),
+        autoSearch_edgy = URLParams.get('autoSearch_edgy'),
+        query = URLParams.get('q'),
+        choices = URLParams.get('choices'),
+        questNumb = URLParams.get('questNumb');
 
-    if (_0x21927d) {
+    if (autoSearch_edgy) {
       if (!bingified) {
-        let _0x2b3ed0 = false,
-            _0x53dba5 = document.getElementsByClassName('b_algo');
+        let useBing = false,
+            b_algo = document.getElementsByClassName('b_algo');
 
         if (document.getElementsByClassName('b_algo b_algoBorder b_algo_feedback')[0] !== undefined) {
-          _0x2b3ed0 = document.getElementsByClassName('b_algo b_algoBorder b_algo_feedback')[0].getElementsByClassName('gb_lnk')[0].href;
-        } else for (let _0x29f56b = 0; _0x29f56b < 3; _0x29f56b++) {
-          let _0x96ce2f = _0x53dba5[_0x29f56b].getElementsByTagName('a')[0].href;
+          useBing = document.getElementsByClassName('b_algo b_algoBorder b_algo_feedback')[0].getElementsByClassName('gb_lnk')[0].href;
+        } else for (let index = 0; index < 3; index++) {
+          let b_algo_trim = b_algo[index].getElementsByTagName('a')[0].href;
 
-          _0x96ce2f.includes('brainly.com') && (_0x2b3ed0 = _0x96ce2f);
+          b_algo_trim.includes('brainly.com') && (useBing = b_algo_trim);
         }
 
-        bingified = true, _0x2b3ed0 !== false && (location.href = _0x2b3ed0 + '?edgyQuest=' + _0x4464ab + '&choices=' + _0x2a0c2a + '&questNumb=' + _0x2e2695);
+        bingified = true, useBing !== false && (location.href = useBing + '?edgyQuest=' + query + '&choices=' + choices + '&questNumb=' + questNumb);
       }
     }
   }
 
   if (location.href.includes('https://brainly.com/')) {
-    let _0x2b1057 = false;
+    let brainly = false;
     setInterval(() => {
-      const _0x517e3f = {
+      const brainlyConfig = {
         'SwrSM': 'stageFrame',
         'qovYA': 'container av-container',
         'RPZMf': 'transparent'
       };
-      const _0x43560c = _0x517e3f;
+      const _0x43560c = brainlyConfig;
       document.cookie.split(';').forEach(_0x8afd90 => {
         document.cookie = _0x8afd90.replace(/^ +/, '').replace(/=.*/, '=;expires=' + new Date().toUTCString() + ';path=/');
       }), localStorage.clear();
@@ -1317,8 +1271,8 @@ function edgyBot() {
             _0x5b3de3 = _0x24bcf3.get('choices'),
             _0x3b8997 = _0x24bcf3.get('questNumb');
 
-        if (document.getElementsByClassName('SearchItem-module__wrapper--J2-gS')[0] !== undefined && !_0x2b1057) {
-          _0x2b1057 = true;
+        if (document.getElementsByClassName('SearchItem-module__wrapper--J2-gS')[0] !== undefined && !brainly) {
+          brainly = true;
           let _0x10e2cc = document.getElementsByClassName('sg-text sg-text--link-unstyled sg-text--bold')[0].href;
           location.href = _0x10e2cc + '&edgyQuest=' + _0x41a0e1 + '&choices=' + _0x5b3de3 + '&questNumb=' + _0x3b8997;
         } else _0x41a0e1 && identifyAnswer_brainly(_0x41a0e1, _0x5b3de3, _0x3b8997);
