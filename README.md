@@ -8,9 +8,9 @@ If you want me to stop, sure I'll stop, but I want to see the source code to edg
 
 ## Currently Done...
 
-Decompiling Code.. 20%
-Analysis of Code.. 10%
-Renaming Functions.. 5%
+Decompiling Code.. 20% <br>
+Analysis of Code.. 10% <br>
+Renaming Functions.. 5% <br>
 
 ### Any community help would be greatly appreciated, as i'm doing this for free, and decompiling an 8000+ line heavily obfuscated JS file isn't easy.
 
